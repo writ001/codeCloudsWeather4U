@@ -1,0 +1,33 @@
+.icon{
+   font-size: 80px;
+}
+.width-100{
+    width:100%;
+}
+.locationClass{
+    position:absolute;
+    top:2px;
+    right:1px;
+    width:280px;
+    font-size: 20px;
+}
+.myCard{
+    width:55vw;
+    height:55vh;
+    margin: 0;
+    padding:0;
+    background: url("../../images/currentBgi.jpg") no-repeat ;
+    background-size:cover ;
+    min-width: 350px;
+    min-height:300px ;
+}
+.container{
+    margin-top:80px;
+}
+@media only screen and (max-width:750px) {
+    .myCard{
+        width:80vw;
+        height:55vh;
+       
+    }
+}

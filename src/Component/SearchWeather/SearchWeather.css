@@ -1,0 +1,19 @@
+ .rightComponent{
+   margin-right: 3px;
+    background: url("../../images/cityBgi.jpeg") no-repeat;
+    background-size: cover;
+    height:55vh;
+    width:35vw;
+    min-height:300px ;
+    min-width:350px;
+ }  
+.container2{
+   margin-top: 10px;
+}
+@media only screen and (max-width:750px) {
+   .rightComponent{
+       width:80vw;
+       height:55vh;
+      
+   }
+}
